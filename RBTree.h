@@ -1,5 +1,6 @@
 
-#pragma once
+#ifndef __RBTREE
+#define __RBTREE
 
 #include "Utils.h"
 
@@ -33,3 +34,5 @@ RBTreeNode *RBTree_balance(RBTreeNode *h);
 RBTreeNode *RBTree_getMin(RBTreeNode *h);
 RBTreeNode *RBTree_getMax(RBTreeNode *h);
 void RBTree_destory(RBTreeNode *h);
+
+#endif
